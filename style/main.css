@@ -1,0 +1,169 @@
+:root{
+    --roxoesc: #200d3a;
+    --roxocl: #292651;
+    --azul: #2e4770;
+    --ver: #ce5e82;
+    --nu: #eca089;
+    --ar: #ecc6a2;
+    --log: rgb(25, 240, 17);
+}
+
+body{
+    background: rgba(0, 0, 0, 0.897);
+    font-family:  'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*.container{
+
+    border: 1px solid rgb(7, 3, 7)
+}
+*/
+
+header .logo{
+    color: var(--log);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 5px;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 11px;
+    
+}
+
+header nav a:hover{
+    color:yellowgreen;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.cripto-principal{
+    font-size: 20px;
+    background: url(/img/muro.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: line;
+    /*
+    align-items: flex-start;
+    */
+}
+
+
+
+.cripto-principal .descricao{
+    margin-bottom: 50px;
+    
+}
+
+
+.cripto-principal .container{
+
+    width: 38%;
+
+}
+.cripto-principal .container 
+{
+    display: inline-block;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+
+}
+/*
+div.opt2 {
+    width: 38%;
+
+    display: inline-block;
+    margin-right: 0vw;
+
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+}
+*/
+.descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.btc{
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0, .90);
+    border: none;
+    color: whitesmoke;
+
+    padding: 15px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .60s ease all;
+
+}
+
+.botao:hover{
+    background-color: whitesmoke;
+    color: var(--roxoesc);
+
+}
+.botao i{
+    margin-right: 5px;
+}
+/*main {
+    
+}
+*/
+
+.box-cripto{
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: rgb(22, 20, 20);
+    margin: 15px;
+}
+
+/*
+.box-cripto .item {
+    margin-left: 0px;
+}
+*/
+
+footer nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    align-items: center;
+}
+footer nav a:hover{
+    color: greenyellow;
+}
+.txt{
+    align-items: center;
+}
+
+
+/*   Conteudo principal   */
+
+
+/*   Conteudo principal   */
