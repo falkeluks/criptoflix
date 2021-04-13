@@ -1,0 +1,115 @@
+
+:root{
+    --roxoesc: #200d3a;
+    --roxocl: #292651;
+    --azul: #2e4770;
+    --ver: #ce5e82;
+    --nu: #eca089;
+    --ar: #ecc6a2;
+    --log: rgb(25, 240, 17);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    
+    width: 100%;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .logo{
+    color: var(--log);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 5px;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 11px;
+    
+}
+
+header nav a:hover{
+    color:yellowgreen;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+body{
+    background: rgba(0, 0, 0, 0.897);
+    font-family:  'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.title{
+    font-size: 20px;
+}
+
+main .container{
+    background: url(/img/muro.jpg);
+    height: 900px;
+    background: cover;
+    
+
+}
+
+.article1{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 40%;
+    
+
+}
+.article2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px;
+    padding: 70px;
+    font-size: 30px;
+    
+}
+
+.article2 a{
+    color: greenyellow;
+}
+
+.article2 .div2{
+    margin-left: 100px;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 11px;
+    
+
+}
+footer nav a:hover{
+    color: greenyellow;
+}
+.txt{
+    align-items: center;
+}
