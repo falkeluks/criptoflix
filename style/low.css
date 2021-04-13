@@ -8,12 +8,13 @@
     --ar: #ecc6a2;
     --log: rgb(25, 240, 17);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
+
 body{
     
     width: 100%;
@@ -26,14 +27,12 @@ header .logo{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     margin-left: 5px;
-
 }
 
 header nav a{
     text-decoration: none;
     color: whitesmoke;
     margin-right: 11px;
-    
 }
 
 header nav a:hover{
@@ -45,19 +44,11 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
 }
 body{
     background: rgba(0, 0, 0, 0.897);
     font-family:  'Times New Roman', Times, serif;
     color: whitesmoke;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
 }
 
 .title{
@@ -77,11 +68,9 @@ main .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     width: 40%;
-    
-
 }
+
 .article2{
     display: flex;
     flex-direction: row;
@@ -89,7 +78,6 @@ main .container{
     margin: 70px;
     padding: 70px;
     font-size: 30px;
-    
 }
 
 .article2 a{
@@ -104,12 +92,12 @@ footer nav a{
     text-decoration: none;
     color: whitesmoke;
     margin-right: 11px;
-    
-
 }
+
 footer nav a:hover{
     color: greenyellow;
 }
+
 .txt{
     align-items: center;
 }

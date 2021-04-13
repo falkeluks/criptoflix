@@ -3,22 +3,25 @@
         display: flex;
         flex-direction: column;
     }
+
     .botao{
         margin-top: 5px;
         width: 190px;
     }
+
     .cripto-principal{
         font-size: 15px;
         text-align: left;
         display: flex;
         flex-direction: column;
         padding-left: 100px;
-    
     }
+    
     .cripto-principal .container{
         margin: 0px;
         padding: 1px;
     }
+
     .titulo{
         font-size: 30px;
     }

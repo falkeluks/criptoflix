@@ -14,7 +14,7 @@ body{
     color: whitesmoke;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,7 +32,6 @@ header .logo{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     margin-left: 5px;
-    
 }
 
 header nav a{
@@ -51,7 +50,6 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 
@@ -71,22 +69,19 @@ header .container{
 
 .cripto-principal .descricao{
     margin-bottom: 50px;
-    
 }
 
 
 .cripto-principal .container{
-
     width: 38%;
-
 }
+
 .cripto-principal .container 
 {
     display: inline-block;
     text-align: center;
     padding: 5vw 0vw 5vw 0vw;
     min-width:40vw;
-
 }
 
 .descricao{
@@ -96,7 +91,6 @@ header .container{
 
 .container-cripto{
     padding-bottom: 100px;
-
 }
 
 .titulo{
@@ -114,18 +108,16 @@ header .container{
     font-size: 12px;
     cursor: pointer;
     transition: .60s ease all;
-
 }
 
 .botao:hover{
     background-color: whitesmoke;
     color: var(--roxoesc);
-
 }
+
 .botao i{
     margin-right: 5px;
 }
-
 
 .box-cripto{
     height: 100%;
@@ -136,6 +128,7 @@ header .container{
     margin-bottom: 10px;
     border: solid 2px #2e4770;
 }
+
 .txt{
     margin-bottom: 20px;
     text-align: right;
@@ -157,6 +150,7 @@ footer nav a{
 footer nav a:hover{
     color: greenyellow;
 }
+
 .txt{
     align-items: center;
 }
