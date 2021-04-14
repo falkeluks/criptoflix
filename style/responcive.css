@@ -25,3 +25,7 @@
     .titulo{
         font-size: 30px;
     }
+
+    .tradingview-widget-container12 {
+        display: none
+    }
